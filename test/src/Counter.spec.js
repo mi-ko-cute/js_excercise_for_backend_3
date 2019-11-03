@@ -2,9 +2,9 @@ const assert = require('power-assert');
 const Counter = require('../../src/Counter.js');
 
 describe('Counterクラスのテスト', () => {
-    it('countプロパティを持つことを確認する', () => {
+    it('_countプロパティを持つことを確認する', () => {
         const counter = new Counter();
-        assert.ok(counter.hasOwnProperty(_count));
+        assert.ok(counter.hasOwnProperty('_count'));
     });
 
     it('_counterプロパティの初期値は0', () => {
