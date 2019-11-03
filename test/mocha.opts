@@ -1,2 +1,1 @@
-# mocha.opts
-    --recursive "./src/*.js"
+--recursive
